@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF144D9815C5958C009CF351 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF144D9715C5958C009CF351 /* UIKit.framework */; };
+		FF144D9A15C5958C009CF351 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF144D9915C5958C009CF351 /* Foundation.framework */; };
+		FF144D9C15C5958C009CF351 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF144D9B15C5958C009CF351 /* CoreGraphics.framework */; };
+		FF144DA215C5958C009CF351 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF144DA015C5958C009CF351 /* InfoPlist.strings */; };
+		FF144DA415C5958C009CF351 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF144DA315C5958C009CF351 /* main.m */; };
+		FF144DA815C5958C009CF351 /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF144DA715C5958C009CF351 /* STAppDelegate.m */; };
+		FF144DAB15C5958C009CF351 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF144DA915C5958C009CF351 /* MainStoryboard.storyboard */; };
+		FF144DAE15C5958C009CF351 /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF144DAD15C5958C009CF351 /* STViewController.m */; };
+		FF144DB615C595B0009CF351 /* STModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF144DB415C595B0009CF351 /* STModel.xcdatamodeld */; };
+		FF144DB915C595CD009CF351 /* STEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = FF144DB815C595CD009CF351 /* STEntry.m */; };
+		FF144DBD15C59610009CF351 /* STDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FF144DBC15C59610009CF351 /* STDataStore.m */; };
+		FF144DBF15C59635009CF351 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF144DBE15C59635009CF351 /* CoreData.framework */; };
+		FF144DC215C597D6009CF351 /* NSManagedObject+STAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF144DC115C597D6009CF351 /* NSManagedObject+STAdditions.m */; };
+		FF144DC515C59CB5009CF351 /* STEntry+STAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF144DC415C59CB5009CF351 /* STEntry+STAdditions.m */; };
+		FF144DC815C59E5E009CF351 /* STEntry+STViewControllerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF144DC715C59E5E009CF351 /* STEntry+STViewControllerAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF144D9315C5958C009CF351 /* SortedSectionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortedSectionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF144D9715C5958C009CF351 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF144D9915C5958C009CF351 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF144D9B15C5958C009CF351 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF144D9F15C5958C009CF351 /* SortedSectionTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SortedSectionTest-Info.plist"; sourceTree = "<group>"; };
+		FF144DA115C5958C009CF351 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF144DA315C5958C009CF351 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF144DA515C5958C009CF351 /* SortedSectionTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SortedSectionTest-Prefix.pch"; sourceTree = "<group>"; };
+		FF144DA615C5958C009CF351 /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		FF144DA715C5958C009CF351 /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		FF144DAA15C5958C009CF351 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FF144DAC15C5958C009CF351 /* STViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		FF144DAD15C5958C009CF351 /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		FF144DB515C595B0009CF351 /* STModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = STModel.xcdatamodel; sourceTree = "<group>"; };
+		FF144DB715C595CD009CF351 /* STEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STEntry.h; sourceTree = "<group>"; };
+		FF144DB815C595CD009CF351 /* STEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STEntry.m; sourceTree = "<group>"; };
+		FF144DBB15C59610009CF351 /* STDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDataStore.h; sourceTree = "<group>"; };
+		FF144DBC15C59610009CF351 /* STDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDataStore.m; sourceTree = "<group>"; };
+		FF144DBE15C59635009CF351 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FF144DC015C597D6009CF351 /* NSManagedObject+STAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+STAdditions.h"; sourceTree = "<group>"; };
+		FF144DC115C597D6009CF351 /* NSManagedObject+STAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+STAdditions.m"; sourceTree = "<group>"; };
+		FF144DC315C59CB5009CF351 /* STEntry+STAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STEntry+STAdditions.h"; sourceTree = "<group>"; };
+		FF144DC415C59CB5009CF351 /* STEntry+STAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STEntry+STAdditions.m"; sourceTree = "<group>"; };
+		FF144DC615C59E5E009CF351 /* STEntry+STViewControllerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STEntry+STViewControllerAdditions.h"; sourceTree = "<group>"; };
+		FF144DC715C59E5E009CF351 /* STEntry+STViewControllerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STEntry+STViewControllerAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF144D9015C5958C009CF351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF144D9815C5958C009CF351 /* UIKit.framework in Frameworks */,
+				FF144D9A15C5958C009CF351 /* Foundation.framework in Frameworks */,
+				FF144DBF15C59635009CF351 /* CoreData.framework in Frameworks */,
+				FF144D9C15C5958C009CF351 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF144D8815C5958C009CF351 = {
+			isa = PBXGroup;
+			children = (
+				FF144DBE15C59635009CF351 /* CoreData.framework */,
+				FF144D9D15C5958C009CF351 /* Structure */,
+				FF144DBA15C595D1009CF351 /* Model */,
+				FF144D9E15C5958C009CF351 /* Supporting Files */,
+				FF144D9615C5958C009CF351 /* Frameworks */,
+				FF144D9415C5958C009CF351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF144D9415C5958C009CF351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF144D9315C5958C009CF351 /* SortedSectionTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF144D9615C5958C009CF351 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF144D9715C5958C009CF351 /* UIKit.framework */,
+				FF144D9915C5958C009CF351 /* Foundation.framework */,
+				FF144D9B15C5958C009CF351 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF144D9D15C5958C009CF351 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				FF144DA615C5958C009CF351 /* STAppDelegate.h */,
+				FF144DA715C5958C009CF351 /* STAppDelegate.m */,
+				FF144DA915C5958C009CF351 /* MainStoryboard.storyboard */,
+				FF144DAC15C5958C009CF351 /* STViewController.h */,
+				FF144DAD15C5958C009CF351 /* STViewController.m */,
+				FF144DC615C59E5E009CF351 /* STEntry+STViewControllerAdditions.h */,
+				FF144DC715C59E5E009CF351 /* STEntry+STViewControllerAdditions.m */,
+			);
+			name = Structure;
+			path = SortedSectionTest;
+			sourceTree = "<group>";
+		};
+		FF144D9E15C5958C009CF351 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF144D9F15C5958C009CF351 /* SortedSectionTest-Info.plist */,
+				FF144DA015C5958C009CF351 /* InfoPlist.strings */,
+				FF144DA315C5958C009CF351 /* main.m */,
+				FF144DA515C5958C009CF351 /* SortedSectionTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = SortedSectionTest;
+			sourceTree = "<group>";
+		};
+		FF144DBA15C595D1009CF351 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF144DBB15C59610009CF351 /* STDataStore.h */,
+				FF144DBC15C59610009CF351 /* STDataStore.m */,
+				FF144DC015C597D6009CF351 /* NSManagedObject+STAdditions.h */,
+				FF144DC115C597D6009CF351 /* NSManagedObject+STAdditions.m */,
+				FF144DB415C595B0009CF351 /* STModel.xcdatamodeld */,
+				FF144DB715C595CD009CF351 /* STEntry.h */,
+				FF144DB815C595CD009CF351 /* STEntry.m */,
+				FF144DC315C59CB5009CF351 /* STEntry+STAdditions.h */,
+				FF144DC415C59CB5009CF351 /* STEntry+STAdditions.m */,
+			);
+			name = Model;
+			path = SortedSectionTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF144D9215C5958C009CF351 /* SortedSectionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF144DB115C5958C009CF351 /* Build configuration list for PBXNativeTarget "SortedSectionTest" */;
+			buildPhases = (
+				FF144D8F15C5958C009CF351 /* Sources */,
+				FF144D9015C5958C009CF351 /* Frameworks */,
+				FF144D9115C5958C009CF351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SortedSectionTest;
+			productName = SortedSectionTest;
+			productReference = FF144D9315C5958C009CF351 /* SortedSectionTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF144D8A15C5958C009CF351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				ORGANIZATIONNAME = "Iridia Productions";
+			};
+			buildConfigurationList = FF144D8D15C5958C009CF351 /* Build configuration list for PBXProject "SortedSectionTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF144D8815C5958C009CF351;
+			productRefGroup = FF144D9415C5958C009CF351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF144D9215C5958C009CF351 /* SortedSectionTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF144D9115C5958C009CF351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF144DA215C5958C009CF351 /* InfoPlist.strings in Resources */,
+				FF144DAB15C5958C009CF351 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF144D8F15C5958C009CF351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF144DA415C5958C009CF351 /* main.m in Sources */,
+				FF144DA815C5958C009CF351 /* STAppDelegate.m in Sources */,
+				FF144DAE15C5958C009CF351 /* STViewController.m in Sources */,
+				FF144DB615C595B0009CF351 /* STModel.xcdatamodeld in Sources */,
+				FF144DB915C595CD009CF351 /* STEntry.m in Sources */,
+				FF144DBD15C59610009CF351 /* STDataStore.m in Sources */,
+				FF144DC215C597D6009CF351 /* NSManagedObject+STAdditions.m in Sources */,
+				FF144DC515C59CB5009CF351 /* STEntry+STAdditions.m in Sources */,
+				FF144DC815C59E5E009CF351 /* STEntry+STViewControllerAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF144DA015C5958C009CF351 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF144DA115C5958C009CF351 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF144DA915C5958C009CF351 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF144DAA15C5958C009CF351 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF144DAF15C5958C009CF351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF144DB015C5958C009CF351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF144DB215C5958C009CF351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SortedSectionTest/SortedSectionTest-Prefix.pch";
+				INFOPLIST_FILE = "SortedSectionTest/SortedSectionTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF144DB315C5958C009CF351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SortedSectionTest/SortedSectionTest-Prefix.pch";
+				INFOPLIST_FILE = "SortedSectionTest/SortedSectionTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF144D8D15C5958C009CF351 /* Build configuration list for PBXProject "SortedSectionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF144DAF15C5958C009CF351 /* Debug */,
+				FF144DB015C5958C009CF351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF144DB115C5958C009CF351 /* Build configuration list for PBXNativeTarget "SortedSectionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF144DB215C5958C009CF351 /* Debug */,
+				FF144DB315C5958C009CF351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF144DB415C595B0009CF351 /* STModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF144DB515C595B0009CF351 /* STModel.xcdatamodel */,
+			);
+			currentVersion = FF144DB515C595B0009CF351 /* STModel.xcdatamodel */;
+			path = STModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF144D8A15C5958C009CF351 /* Project object */;
+}
